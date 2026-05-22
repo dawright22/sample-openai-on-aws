@@ -35,31 +35,6 @@ Use the familiar OpenAI Python SDK, pointed at Bedrock's OpenAI-compatible endpo
 * Chat completions (non-streaming and streaming)
 * Function calling with tool use
 
-### 2. Amazon Bedrock InvokeModel API
-
-Direct low-level access to Bedrock's `InvokeModel` and `InvokeModelWithResponseStream` APIs via `boto3`.
-
-* Non-streaming inference
-* Streaming with time-to-first-token measurement
-* Tool use with manual request/response handling
-
-### 3. Amazon Bedrock Converse API
-
-A unified, model-agnostic interface that works across all Bedrock-hosted models without code changes.
-
-* Synchronous inference with reasoning trace extraction
-* Streaming via `converse_stream`
-* Tool use with Bedrock's native `toolSpec` format
-
-### 4. Reasoning Use Cases
-
-Demonstrations of complex reasoning tasks using the Chat Completions API:
-
-* Exponential growth calculations over time
-* Kinematics with multi-phase motion analysis
-* Scientific problem solving workflows
-* System design reasoning (URL shortener)
-
 ## Prerequisites
 
 * Python 3.9+
